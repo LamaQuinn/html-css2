@@ -1,0 +1,64 @@
+/* body{
+    background-color: darkgrey;
+    position:relative;
+    z-index: 1;
+    height: 1000px;
+}
+#top{
+    background-color: grey;
+    width: 100vw;
+    height: 150px;
+    z-index: 5;
+}
+#middle{
+    background-color: beige;
+    width:50vw ;
+    height: 1000px;
+    z-index: 5;
+    position: relative;
+    top: 653px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    
+}
+#bottom{
+    background-color: black;
+    width:900px ;
+    height: 5vw;
+    position: sticky;
+    top: 3000px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+} */
+
+
+body {
+    margin: 0;
+    background-color: #D8D8D8;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  header {
+    width: 100%;
+    height: 20vh;
+    background-color: #444444;
+  }
+  
+  main {
+    background-color: #EFEFEF;
+    margin: 0 auto;
+    width: 75%;
+    height: 70vh;
+  }
+  
+  footer { 
+    background-color: #222222;
+    margin: 0 auto; 
+    width: 75%;
+    height: 10vh;
+  }
+
+  /* Specifying auto as the second parameter basically tells the browser to automatically determine the left and right margins itself, which it does by setting them equally. */

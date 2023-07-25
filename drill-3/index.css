@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    padding: 35px;
+
+}
+#rec{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+#text>p{
+    text-align:initial;
+    margin: 25px;
+}
+#three{
+    background-color: purple;
+    box-sizing: border-box;
+    padding: 70px;
+    margin-top: 25px;
+
+}
+#four{
+    background-color: blue;
+    box-sizing: border-box;
+    padding: 70px;
+    
+}
+#five{
+    background-color: greenyellow;
+    box-sizing: border-box;
+    padding: 70px;
+}
+#six{
+    background-color: palevioletred;
+    box-sizing: border-box;
+    padding: 70px;
+}
+#question{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    right: 10px;
+     bottom: 10px;
+     color: white;
+     font-size: 25px;
+     border: none;
+}
